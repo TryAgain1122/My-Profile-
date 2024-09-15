@@ -2,8 +2,6 @@
 
 import Image from "next/image";
 import React from "react";
-import MyPic6 from "../assets/457708611_478542488386306_7668092188275564777_n.jpg";
-import MyPic7 from "../assets/457646264_843507414552496_2600282845434735658_n.jpg";
 import logo from '../assets/logo.png';
 import movieland from '../assets/movieland.png';
 import reactMeals from '../assets/reactmeals.png';
