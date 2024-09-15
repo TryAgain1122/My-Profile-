@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useCallback } from "react";
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
 import { FaNodeJs } from "react-icons/fa";
@@ -12,6 +12,8 @@ import { FaJava } from "react-icons/fa6";
 import { TbBrandCpp } from "react-icons/tb";
 import { SiExpress } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
+import { SiMysql } from "react-icons/si";
+
 
 const techIcons = [
   { Icons: <RiReactjsLine className="text-7xl text-cyan-400" /> },
@@ -25,7 +27,9 @@ const techIcons = [
   { Icons: <TbBrandCpp className="text-7xl" /> },
   { Icons: <SiExpress className="text-7xl" /> },
   { Icons: <RiTailwindCssFill className="text-7xl text-cyan-500" /> },
+  { Icons: <SiMysql className="text-7xl text-cyan-800" /> },
 ];
+
 
 const Technologies = () => {
   return (
