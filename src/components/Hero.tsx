@@ -27,10 +27,10 @@ const Hero = () => {
               Full Stack Developer
             </span>
             <p className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter">
-              Self-taught IT professional specializing in the MERN (MongoDB,
-              Express.js, ReactJS, Node.js) stack. Proficient in building
-              full-stack applications with a strong ability to learn new
-              technologies. Passionate about continuous learning and research.
+             IT enthusiast specializing in the MERN stack (MongoDB, Express.js, ReactJS, Node.js), skilled 
+              at developing dynamic and efficient full-stack applications. Adept at rapidly mastering new 
+              technologies and driven by a passion for continuous learning and innovation. Highly committed to
+              staying at the forefront of industry trends through ongoing research and development.
             </p>
             <Link
               href={"/resume.pdf"}
