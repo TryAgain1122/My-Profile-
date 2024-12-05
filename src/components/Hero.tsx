@@ -2,8 +2,6 @@
 
 import Image from "next/image";
 import React from "react";
-import myImage from "../assets/rafhael.jpg";
-import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -12,7 +10,7 @@ const Hero = () => {
         <div className="w-full lg:w-1/2">
           <div className="flex justify-center lg:p-8">
             <Image
-              src={myImage}
+              src={'/assets/rafhael.jpg'}
               alt="Image"
               className="rounded-3xl opacity-80 border border-stone-800"
             />
