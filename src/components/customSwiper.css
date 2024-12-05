@@ -4,7 +4,6 @@ customSwiper.css
 .swiper-button-next,
 .swiper-button-prev {
   color: #00b4d8; /* Change to the desired color */
-  background-color: rgba(0, 0, 0, 0.5); /* Optional: Add a background */
   padding: 8px; /* Add some padding */
   border-radius: 50%; /* Make them circular */
   width: 40px; /* Adjust size */
@@ -16,8 +15,3 @@ customSwiper.css
   font-size: 20px; /* Adjust the arrow size */
 }
 
-.swiper-button-next:hover,
-.swiper-button-prev:hover {
-  color: #0077b6; /* Change color on hover */
-  background-color: rgba(0, 0, 0, 0.7); /* Optional: Change background on hover */
-}
