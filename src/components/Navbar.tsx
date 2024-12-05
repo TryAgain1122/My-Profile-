@@ -20,16 +20,16 @@ const Navbar = () => {
         </Link>
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <Link href="facebook.com" target="_blank">
+        <Link href="https://www.linkedin.com/in/rafhael-luis-25ba0525b/" target="_blank">
             <FaLinkedin />
         </Link>
-        <Link href="facebook.com" target="_blank">
+        <Link href="instagram.com" target="_blank">
             <FaInstagram />
         </Link>
         <Link href="facebook.com" target="_blank">
             <FaFacebook />
         </Link>
-        <Link href="facebook.com" target="_blank">
+        <Link href="https://github.com/TryAgain1122" target="_blank">
             <FaGithub />
         </Link>
       </div>

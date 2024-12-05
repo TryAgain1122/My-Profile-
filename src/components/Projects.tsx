@@ -2,10 +2,6 @@
 
 import Image from "next/image";
 import React from "react";
-import logo from '../assets/logo.png';
-import movieland from '../assets/movieland.png';
-import reactMeals from '../assets/reactmeals.png';
-import guess from '../assets/guess.png';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -20,27 +16,34 @@ const myProjects = [
       "A hotel management system with payment integration, authentication via NextAuth, room booking and cancellation features, and an admin panel for managing users and bookings.",
     technologies: ["ReactJs", "Typescript", "Redux", "MongoDB", "Tailwind CSS", "Next"],
     href: "https://www.urban-deca-tower.site/",
-    images: [logo]
+    images: ['/assets/logo.png']
   },
   {
     title: "MovieLand",
     description: "Movieland is built with React.js, and the movie listings are fetched from an API.",
     technologies: ["Next UI", "Next JS", "Tailwind CSS"],
-    images: [movieland]
+    images: ['/assets/movieland.png']
   },
   {
     title: "Guessing game",
     description: "A simple web-based guessing game built using HTML, CSS, and JavaScript.",
     technologies: ["HTML", "CSS", "JavaScript"],
-    images: [guess],
+    images: ['/assets/guess.png'],
     href: "https://guess-my-number-beryl-six.vercel.app/"
   },
   {
     title: "React Meals",
     description: "Static API food ordering application built with ReactJS.",
     technologies: ["React JS", "CSS"],
-    images: [reactMeals],
+    images: ['/assets/reactmeals.png'],
     href: "https://food-ordering-app-lake.vercel.app/"
+  },
+  {
+    title: "Le Sserafim Fan Page",
+    description: "My plan is to create a fan page dedicated to introducing them, showcasing their work, and sharing updates. This project also serves as a way for me to practice and enhance my frontend development skills, experiment with new design ideas, and improve my proficiency with modern web technologies",
+    technologies: ["React JS", "CSS"],
+    images: ['/assets/le-sserafim-image1.png', '/assets/le-sserafim-image.png', '/assets/le-sserafim-gallery.png'],
+    href: "https://le-sserafim-fan-page.vercel.app/"
   },
 ];
 

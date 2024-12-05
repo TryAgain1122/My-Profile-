@@ -18,9 +18,6 @@ const Contact = () => {
         {myContacts.map((contact, index) => (
           <div key={index}>
             <p className="my-4">
-                {contact.address}
-            </p>
-            <p className="my-4">
                 {contact.phoneNo}
             </p>
             <p className="my-4 underline">
