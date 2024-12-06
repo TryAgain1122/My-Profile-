@@ -12,7 +12,7 @@ const Hero = () => {
             <Image
               src={'/assets/rafhael.jpg'}
               alt="Image"
-              className="rounded-3xl opacity-80 border border-stone-800"
+              className="rounded-3xl opacity-80 border border-stone-800 w-[400px] h-[400px]"
             />
           </div>
         </div>
